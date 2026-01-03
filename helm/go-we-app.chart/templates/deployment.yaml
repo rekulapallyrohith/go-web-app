@@ -16,4 +16,4 @@ spec:
       - name: go-web-app
         image: rekulapallyrohith/go-web-app:{{ .Values.image.tag }}
         ports:
-        - containerPort: 80
+        - containerPort: 8080
